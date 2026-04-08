@@ -11,7 +11,7 @@ variable "public_key" {
 variable "mi_ip_publica" {
   description = "IP pública para restringir el acceso SSH"
   type        = string
-  default     = "181.43.52.214/32" 
+  default     = "181.43.52.214/32"
 }
 
 data "aws_ami" "ubuntu_24_04" {
